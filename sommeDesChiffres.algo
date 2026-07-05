@@ -1,0 +1,29 @@
+// Eng ver.
+Algorithm sumOfDigits
+Var
+    n ,s : Integer
+Begin
+    Write("Enter a number : ");
+    Read(n);
+    s <-- 0;
+    While n != 0 do
+        s <-- s + n mod 10;
+        n <-- (n - n mod 10) /10;
+    EndWhile;
+    Write("The sum is ", s);
+End.
+
+// Ver. Fr
+Algorithme sumOfDigits
+Var
+    n ,s : Integer
+Début
+    Ecrire("Saisez un nombre: ");
+    Lire(n);
+    s <-- 0;
+    Tantque n != 0 faire
+        s <-- s + n mod 10;
+        n <-- (n - n mod 10) /10;
+    FinTantque;
+    Ecrire("La somme de ses chiffres est: ", s);
+Fin.

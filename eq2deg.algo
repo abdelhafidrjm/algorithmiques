@@ -1,0 +1,65 @@
+// Eng Ver.
+Algorithm quadraticSolution;
+Var
+	a, b, c, d, x1, x2 : Float;
+Begin
+	Write("Enter a, b and c (such that the equation is ax^2 + bx + c = 0) : ");
+	Read(a, b, c);
+	If a = 0 then
+        If b = 0 then
+            If c = 0 then
+                Write("solution in R : all real numbers");
+            Else
+                Write("solution in R : none");
+            EndIf;
+        Else
+            Write("solution in R : ", -c/b);
+        EndIf;
+    Else
+        d <-- b ^ 2 - 4 * a * c;
+        If d > 0 then
+			If d = 0 then
+				Write("solution in R : ", (-b)/(2*a));
+			Else
+            	x1 <-- (-b-sqrt(d))/(2*a);
+            	x2 <-- (-b+sqrt(d))/(2*a);
+            	Write("solution in R : " x1, " and ", x2);
+			EndIf;
+        Else
+            Write("solution in R : none");
+        EndIf;
+    EndIf;
+End.
+
+// Ver. FR
+Algorithme solution2degré;
+Var
+	a, b, c, d, x1, x2 : Réal;
+Début
+	Ecrire("saisez a, b and c (sachant que l'equation est ax^2 + bx + c = 0) : ");
+	Lire(a, b, c);
+	Si a = 0 alors
+        Si b = 0 alors
+            Si c = 0 alors
+                Ecrire("solution dans R : tous les nombres réals");
+            Sinon
+                Ecrire("solution dans R : aucune");
+            FinSi;
+        Sinon
+            Ecrire("solution dans R : ", -c/b);
+        FinSi;
+    Sinon
+        d <-- b ^ 2 - 4 * a * c;
+        Si d > 0 alors
+			Si d = 0 alors
+				Ecrire("solution dans R : ", (-b)/(2*a));
+			Si
+            	x1 <-- (-b-sqrt(d))/(2*a);
+            	x2 <-- (-b+sqrt(d))/(2*a);
+            	Ecrire("solution dans R : " x1, " et ", x2);
+			FinSi;
+        Sinon
+            Ecrire("solution dans R : aucune");
+        FinSi;
+    FinSi;
+Fin.

@@ -1,0 +1,40 @@
+// Eng Ver.
+Algorithm Fibonacci_Series
+Var
+	n, a, b, f : Integer
+Begin
+	Do
+		Write("Enter the number of terms : ");
+		Read(n);
+	While n < 0;
+	a <-- 1;
+	b <-- 0;
+	f <-- 0;
+	For i <-- 0 to n - 1 do
+		f <-- a + b;
+		Write("f(,", i, ") = ", f);
+		b <-- a;
+		a <-- f;
+	EndFor;
+End.
+
+// Ver. Fr
+Algorithme suiteDeFibonacci;
+Var
+	n, a, b, f : Entier;
+Début
+	Répéter 
+		Ecrire("saisez le nombre des termes: ");
+		Lire(n);
+	Jusqu'à n < 0;
+
+	a <-- 1;
+	b <-- 0;
+	f <-- 0;
+	Pour i <-- 0 à n - 1 do
+		f <-- a + b;
+		Ecrire("f(,", i, ") = ", f);
+		b <-- a;
+		a <-- f;
+	FinPour;
+Fin.
