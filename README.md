@@ -1,19 +1,17 @@
 # algorithmes
 Ceci est un dossier des algorithmes de base dans le module Algotithmiques 1
 Il contient les exercices suivants :
-- [Calcul la surface d'un rectangle](/surface.algo)
-- Maximum de trois nombres
-- Somme des nombres
-- Calcul de factoriel
-- Somme des chiffres d'un nombre
-- Vérification de nombre premier
-- Série de Fibonacci
-- Calcul de PGCD
-- Solveur d’équations de 2eme degré
+- [Calcul la surface d'un rectangle](/Pseudo/surface.algo)
+- [Maximum de trois nombres](/Pseudo/maximumDeTroisNombres.algo)
+- [Somme des nombres](/Pseudo/somme.algo)
+- [Calcul de factoriel](/Pseudo/factoriel.algo)
+- [Somme des chiffres d'un nombre](/Pseudo/sommeDesChiffres.algo)
+- [Vérification de nombre premier](/Pseudo/estIlPremier.algo)
+- [Série de Fibonacci](/Pseudo/suiteDeFibonacci.algo)
+- [Calcul de PGCD](/Pseudo/pgcd.algo)
+- [Solveur d’équations de 2eme degré](/Pseudo/eq2deg.algo)
 
 <!--
-Ceci est un commentaire masqué sur GitHub
-
 - Factorisation en nombres premiers
 - Primes de Fibonacci
 - Vérification du nombre Palindrome
@@ -22,6 +20,10 @@ Ceci est un commentaire masqué sur GitHub
 - Nombre miroir
 - Algorithme euclidien
 - Numéro Armstrong
+
+Il a également des solutions dans deux langues.
+[Python](/Python)
+[C](/C) 
 -->
 
 # algorithmes
