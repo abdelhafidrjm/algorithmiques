@@ -1,17 +1,3 @@
-// Eng ver.
-Algorithm factorial
-Var
-    n, f, i : Integer;
-Begin
-    f <-- 1;
-    Write("Enter a numbe : ");
-    Read(n);
-    For i <-- 2 to n do
-        f <-- f*i;
-    EndFor;
-    Write("The factorial is : ", f);
-End.
-
 // Ver. Fr
 Algorithme factoriel;
 Var
@@ -25,3 +11,17 @@ Début
     FinPour;
     Write("le factoriel de", n, "est: ", f);
 Fin.
+
+// Eng ver.
+Algorithm factorial
+Var
+    n, f, i : Integer;
+Begin
+    f <-- 1;
+    Write("Enter a numbe : ");
+    Read(n);
+    For i <-- 2 to n do
+        f <-- f*i;
+    EndFor;
+    Write("The factorial is : ", f);
+End.

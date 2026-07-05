@@ -25,17 +25,3 @@ Il a également des solutions dans deux langues.
 [Python](/Python)
 [C](/C) 
 -->
-
-# algorithmes
-This is a folder of the basic algorithms in the module Algotithmics 1
-It contains the following exercises:
-
-- Calculation the area of a rectangle
-- Maximum of three numbers
-- Sum of numbers
-- Calculation of factorial 
-- Sum of digits of a number
-- Prime number checker
-- Fibonacci sequence
-- Calculation of GCD
-- Quadratic equation solver

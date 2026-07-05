@@ -1,14 +1,3 @@
-// ENG Ver.
-Algorithm area;
-Var
-    x, y, a : Float;
-Begin
-    Write("Enter the length and width : ");
-    Read(x, y);
-    a <-- x * y;
-    Write("The area is ", a);
-End.
-
 // Ver. FR
 Algorithme surface;
 Var
@@ -19,3 +8,14 @@ Début
     s <-- x * y;
     Ecrire("La surface est ", s);
 Fin.
+
+// ENG Ver.
+Algorithm area;
+Var
+    x, y, a : Float;
+Begin
+    Write("Enter the length and width : ");
+    Read(x, y);
+    a <-- x * y;
+    Write("The area is ", a);
+End.

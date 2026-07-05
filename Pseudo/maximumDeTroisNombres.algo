@@ -1,22 +1,4 @@
-// English ver.
-Algorithm max;
-Var
-    a, b, c, max : Integer;
-Begin
-    Write("enter three numbers: ");
-    Read(a, b, c);
-    max <-- a;
-    If b > max then
-        max <-- b;
-    Else
-        If c > max then
-            mac <-- c;
-        EndIf;
-    EndIf;
-    Write("The max is", max);
-End.
-
-// Version française
+// Ver. FR
 Algorithme max;
 Var
     a, b, c, max : Entier;
@@ -33,3 +15,21 @@ Début
     FinSi;
     Ecrire("le max est", max);
 Fin.
+
+// ENG ver.
+Algorithm max;
+Var
+    a, b, c, max : Integer;
+Begin
+    Write("enter three numbers: ");
+    Read(a, b, c);
+    max <-- a;
+    If b > max then
+        max <-- b;
+    Else
+        If c > max then
+            mac <-- c;
+        EndIf;
+    EndIf;
+    Write("The max is", max);
+End.

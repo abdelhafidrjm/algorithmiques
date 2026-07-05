@@ -1,17 +1,3 @@
-// Eng Ver.
-Algorithm sum;
-Var
-    n, s : Integer;
-Begin
-    Write("Enter n : ");
-    Read(n);
-    s <-- 0;
-    For i <-- 1 to n do
-        s <-- s + i;
-    EndFor;
-    Write("The sum of all numbers from 0 to ", n, " is ", s);
-End.
-
 // Ver. FR
 Algorithme somme;
 Var
@@ -25,3 +11,17 @@ Début
     FinSi;
     Ecrire("la somme des nombres de 0 à ", n, " est ", s);
 Fin.
+
+// ENG Ver.
+Algorithm sum;
+Var
+    n, s : Integer;
+Begin
+    Write("Enter n : ");
+    Read(n);
+    s <-- 0;
+    For i <-- 1 to n do
+        s <-- s + i;
+    EndFor;
+    Write("The sum of all numbers from 0 to ", n, " is ", s);
+End.
