@@ -1,7 +1,7 @@
 # algorithmes
 Ceci est un dossier des algorithmes de base dans le module Algotithmiques 1
 Il contient les exercices suivants :
-- Calcul la surface d'un rectangle
+- [Calcul la surface d'un rectangle](/surface.algo)
 - Maximum de trois nombres
 - Somme des nombres
 - Calcul de factoriel
